@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins:wght@300;400;600&display=swap');
+
+:root {
+  --font: "Poppins", sans-serif;
+  --primary-color: #ff7a4e;
+
+  --grey-1: #f2f2f2;
+  --grey-2: #bdbdbd;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-md: 1rem;
+  --text-lg: 1.5rem;
+
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+  --space-xxl: 5rem;
+
+  --rounded-sm: 8px;
+  --rounded: 16px;
+
+  --shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  font-family: var(--font);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.content-top {
+  display: flex;
+  flex-direction: column;
+  padding: var(--space-sm) var(--space-lg);
+}
+
+.title {
+  font-size: var(--text-lg);
+  font-weight: 600;
+  padding: var(--space-lg) 0;
+  width: 50%;
+  text-align: left;
+  font-family: 'Merriweather', serif;
+}
+
+.context {
+  font-size: var(--text-md);
+  font-weight: 600;
+  padding: 0;
+}
+
+.context p {
+  font-size: var(--text-sm);
+  font-weight: 400;
+}
+
+.gallery {
+  padding: var(--space-lg) var(--space-lg);
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-lg) var(--space-xl);
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 7fr 1fr;
+  grid-template-rows: auto 1fr;
+  font-size: var(--text-sm);
+}
+
+.card img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.role {
+  writing-mode: vertical-lr;
+  margin: 0 auto;
+  font-weight: 300;
+}
+
+.name {
+  margin-top: auto;
+  font-weight: 600;
+}
+
+footer {
+  font-size: var(--text-sm);
+  margin: 4rem auto auto;
+  color: gray;
+}
+
+.yuandere {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+@media (max-width: 640px) {
+  .gallery div:nth-child(even) {
+    transform: translateY(4rem);
+  }
+}
+
+@media (min-width: 640px) {
+  .content-top {
+    display: flex;
+    flex-direction: row;
+    padding: var(--space-xl) var(--space-xxl) 0;
+    align-items: baseline;
+  }
+  .title {
+    text-align: center;
+    padding-right: var(--text-lg);
+  }
+  .gallery {
+    padding: var(--space-xxl) var(--space-xxl);
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .gallery div:nth-child(2), .gallery div:nth-child(5) {
+    transform: translateY(4rem);
+  }
+  .card {
+    font-size: var(--text-md);
+  }
+}
+
+@media (min-width: 1000px) {
+  .content-top {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .gallery {
+    gap: var(--space-xl) var(--space-xxl);
+  }
+  .card {
+    max-width: 400px;
+  }
+}
