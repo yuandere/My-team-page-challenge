@@ -106,13 +106,15 @@ footer {
   text-decoration: underline;
 }
 
-@media (max-width: 640px) {
+/* TABLET DISPLAY */
+
+@media (max-width: 767px) {
   .gallery div:nth-child(even) {
     transform: translateY(4rem);
   }
 }
 
-@media (min-width: 640px) {
+@media (min-width: 767px) {
   .content-top {
     display: flex;
     flex-direction: row;
@@ -122,6 +124,7 @@ footer {
   .title {
     text-align: center;
     padding-right: var(--text-lg);
+    width: 100%;
   }
   .gallery {
     padding: var(--space-xxl) var(--space-xxl);
@@ -137,7 +140,9 @@ footer {
   }
 }
 
-@media (min-width: 1000px) {
+/* DESKTOP DISPLAY */
+
+@media (min-width: 1023px) {
   .content-top {
     width: 80%;
     margin: 0 auto;
