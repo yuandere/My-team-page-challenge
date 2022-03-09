@@ -35,8 +35,7 @@
 <!-- OVERVIEW -->
 
 ## Overview
-<table>
-  <tr>
+
 | Desktop | Mobile |
 | --- | --- |
 | ![screenshot1](../teamscreen1.jpg) | ![screenshot2](../teamscreen2.jpg) |
