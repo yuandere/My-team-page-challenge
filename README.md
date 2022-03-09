@@ -41,8 +41,8 @@
     <th>Mobile</th>
   </tr>
   <tr>
-    <td>![screenshot1](https://github.com/yuandere/My-team-page-challenge/blob/main/teamscreen1.jpg?raw=true)</td>
-    <td>![screenshot2](https://github.com/yuandere/My-team-page-challenge/blob/main/teamscreen2.jpg?raw=true)</td>
+    <td>![screenshot1](../teamscreen1.jpg)</td>
+    <td>![screenshot2](../teamscreen2.jpg)</td>
   </tr>
 </table>
 
