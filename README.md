@@ -37,14 +37,9 @@
 ## Overview
 <table>
   <tr>
-    <th>Desktop</th>
-    <th>Mobile</th>
-  </tr>
-  <tr>
-    <td>![screenshot1](../teamscreen1.jpg)</td>
-    <td>![screenshot2](../teamscreen2.jpg)</td>
-  </tr>
-</table>
+| Desktop | Mobile |
+| --- | --- |
+| ![screenshot1](../teamscreen1.jpg) | ![screenshot2](../teamscreen2.jpg) |
 
 This page was built to be a responsive "our team" page using flexbox and CSS grid. My biggest takeaway from this challenge is that grid items don't always have to be positioned using only grid properties - for simple tweaks you can just use `transform: translateY()` and other CSS transforms to shift things around a bit. Another helpful tip is to use the property `writing-mode` to rotate text instead of `transform: rotate()`
 
