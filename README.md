@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://https://objective-lamarr-1e6f09.netlify.app/">
+    <a href="https://objective-lamarr-1e6f09.netlify.app/">
       Demo
     </a>
     <span> | </span>
@@ -41,12 +41,12 @@
     <th>Mobile</th>
   </tr>
   <tr>
-    <td>![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)</td>
-    <td>placeholder</td>
+    <td>![screenshot1](https://github.com/yuandere/My-team-page-challenge/blob/main/teamscreen1.jpg?raw=true)</td>
+    <td>![screenshot2](https://github.com/yuandere/My-team-page-challenge/blob/main/teamscreen2.jpg?raw=true)</td>
   </tr>
 </table>
 
-This page was built to be a responsive "our team" page using flexbox and CSS grid. My biggest takeaway from this challenge is that grid items don't always have to be positioned using only grid properties - for simple tweaks you can just use `transform: translateY()` and other CSS transforms to shift things around a bit. Pretty useful!
+This page was built to be a responsive "our team" page using flexbox and CSS grid. My biggest takeaway from this challenge is that grid items don't always have to be positioned using only grid properties - for simple tweaks you can just use `transform: translateY()` and other CSS transforms to shift things around a bit. Another helpful tip is to use the property `writing-mode` to rotate text instead of `transform: rotate()`
 
 ### Built With
 
